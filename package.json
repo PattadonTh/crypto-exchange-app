@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "express": "^5.1.0",
+    "sqlite3": "^5.1.7"
+  },
+  "scripts": {
+  "start": "node server.js",
+  "seed:test": "sqlite3 db/crypto_exchange.sqlite < test/test-seed.sql",
+  "reset:all": "sqlite3 db/crypto_exchange.sqlite < db/init.sql && npm run seed:test"
+  }
+}
+
