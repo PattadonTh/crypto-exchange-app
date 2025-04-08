@@ -185,7 +185,6 @@ npm run reset:all         # (Optional) Re-init + seed
 - [x] Trade logging
 - [x] Transaction record & wallet balance update
 - [x] SQLite3 embedded database
-- [x] Postman collection included
 
 ---
 
